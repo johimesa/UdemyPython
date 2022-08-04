@@ -41,3 +41,10 @@ print(f"La división al piso de {z} // {x} = {z // x}") #quita los decimales
 print(f"El resto de {z} % {x} = {z % x}")
 print(f"La potencia de {y} ** {x} = {y ** x}")
 print(f"La raíz cuadra de {z} = {z **0.5}")
+print("")
+#redondeo
+resultado = 90/7
+print(resultado)
+print(round(resultado))
+print(round(resultado, 2))
+
