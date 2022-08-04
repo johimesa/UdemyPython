@@ -20,3 +20,24 @@ print(int(num1))
 
 num2 = 4
 print(float(num2))
+
+#formateo de cadenas
+name = "Hilario"
+lastname = "Medina"
+age = 37
+print("Tu nombre es {} {}, y tienes {} años".format(name, lastname, age))
+#v3.6 python cadenas literales
+print(f"Tu nombre es {name} {lastname} y tienes {age} años")
+
+#operadores matemáticos
+x = 4
+y = 8
+z = 9
+print(f"La suma de {x} + {y} = {x + y}")
+print(f"La resta de {z} - {x} = {z - x}")
+print(f"La multiplicación de {x} * {y} = {x * y}")
+print(f"La división de {z} / {x} = {z / x}")
+print(f"La división al piso de {z} // {x} = {z // x}") #quita los decimales
+print(f"El resto de {z} % {x} = {z % x}")
+print(f"La potencia de {y} ** {x} = {y ** x}")
+print(f"La raíz cuadra de {z} = {z **0.5}")
